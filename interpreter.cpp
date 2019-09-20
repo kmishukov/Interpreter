@@ -1,4 +1,8 @@
-/* 04.06.2019 */
+// Interpreter C++
+// Made by Mishukov Konstantin
+// 04.09.2019
+
+
 #include <iostream>
 #include <string>
 #include <cstdio>
