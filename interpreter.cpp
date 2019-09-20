@@ -299,7 +299,7 @@ void Parser::analyze () {
     P();
     if (c_type != LEX_FIN)
         throw curr_lex;
-    //for_each( poliz.begin(), poliz.end(), [](Lex l){ cout << l; });
+    for_each( poliz.begin(), poliz.end(), [](Lex l){ cout << l; });
       for (Lex l : poliz)
           cout << l;
     cout << endl << "Yes!!!" << endl;
